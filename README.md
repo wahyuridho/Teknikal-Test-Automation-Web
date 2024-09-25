@@ -31,8 +31,8 @@ or if you wish to run specific test case you can use this command
 
 
 # How to Generate report
-After you run "npx wdio .\wdio.conf.js", the system will generate new folder "allure-results". For generate test report you cand type following command (Note: makesure java already installed properly on your device)
-"allure generate .\allure-results". Then folder "allure-report" will created
+After you run "npx wdio .\wdio.conf.js", the system will generate new folder "allure-results". For generate test report you cand type following command
+"allure generate .\allure-results". Then folder "allure-report" will created (Note: makesure java already installed properly on your device)
 ![image](https://github.com/user-attachments/assets/1d6765f7-d60b-41cc-b5ea-ca02c0d0b9e7)
 Then you can type following command "allure open". Then the report will automaticaly open in your default browser
 ![image](https://github.com/user-attachments/assets/a377848e-cf73-4f42-9750-9887d2b60649)
