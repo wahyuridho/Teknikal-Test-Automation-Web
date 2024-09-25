@@ -5,8 +5,9 @@ class LoginPage extends Page {
     get username () { return $('#user-name') }
     get password () { return $('#password') }
     get submitButton () { return $('input[type=submit]') }
-    get errorButton () {return $('button[class="error-button"]')}
-    get alertBlockUser () {return $('h3[data-test="error"]')}
+    get errorButton () { return $('button[class="error-button"]')}
+    get alertBlockUser () { return $('h3[data-test="error"]')}
+    get productHeader () { return $('span[class="title"]') }
 
     open = () => {
         return super.open('/')
