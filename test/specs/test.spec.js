@@ -19,6 +19,7 @@ describe('Saucedemo Login Scenario', () => {
         await LoginPage.submit()
 
         await expect(LoginPage.errorButton).toBeDisplayed()
+        await expect(LoginPage.alertBlockUser).toBeDisplayed()
         await expect(LoginPage.alertBlockUser).toHaveText('Epic sadface: Username and password do not match any user in this service')
         await browser.pause(2000)
     })
