@@ -30,3 +30,16 @@ or if you wish to run specific test case you can use this command
 
 
 # How to Generate report
+After you run "npx wdio .\wdio.conf.js", the system will generate new folder "allure-results". For generate test report you cand type following command
+"allure generate .\allure-results". Then folder "allure-report" will created
+![image](https://github.com/user-attachments/assets/1d6765f7-d60b-41cc-b5ea-ca02c0d0b9e7)
+Then you can type following command "allure open". Then the report will automaticaly open in your default browser
+![image](https://github.com/user-attachments/assets/a377848e-cf73-4f42-9750-9887d2b60649)
+![image](https://github.com/user-attachments/assets/0416c9db-63b1-4205-8103-b08814e279d7)
+![image](https://github.com/user-attachments/assets/b4c770dd-c70b-41eb-93bb-a800709845d6)
+
+
+Note: for Configure Webdriver, WebdriverIO already provide chromedriver automatically. so if you want to change the browser you can adjust wdio.conf.js on session capabilities
+
+![image](https://github.com/user-attachments/assets/b4f616da-c9bb-4d0b-9ac9-4c5eeb66db6b)
+
