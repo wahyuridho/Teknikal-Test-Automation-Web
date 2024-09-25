@@ -6,6 +6,7 @@ Repository ini dibuat untuk memenuhi tugas teknikal yang diberikan dalam proses 
 Make sure your PC/Laptop already install 
 - Node.js
 - Git
+- Java / JDK
 
 ## Setup
 1. You can clone this repository, Open terminal and write the following command: "git clone https://github.com/wahyuridho/Teknikal-Test-Automation-Web.git"
@@ -30,7 +31,7 @@ or if you wish to run specific test case you can use this command
 
 
 # How to Generate report
-After you run "npx wdio .\wdio.conf.js", the system will generate new folder "allure-results". For generate test report you cand type following command
+After you run "npx wdio .\wdio.conf.js", the system will generate new folder "allure-results". For generate test report you cand type following command (Note: makesure java already installed properly on your device)
 "allure generate .\allure-results". Then folder "allure-report" will created
 ![image](https://github.com/user-attachments/assets/1d6765f7-d60b-41cc-b5ea-ca02c0d0b9e7)
 Then you can type following command "allure open". Then the report will automaticaly open in your default browser
