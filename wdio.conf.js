@@ -51,7 +51,16 @@ export const config = {
     //
     capabilities: [{
         // capabilities for local browser web tests
-        browserName: 'chrome' // or "firefox", "microsoftedge", "safari"
+        // browserName: 'chrome' // or "firefox", "microsoftedge", "safari"
+        maxInstances: 1,
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            args: [
+                '--headless', // Jalankan di background
+                '--no-sandbox', // Untuk lingkungan CI
+                '--disable-dev-shm-usage', // Mencegah masalah memori
+            ]
+        }
     }],
 
     //
